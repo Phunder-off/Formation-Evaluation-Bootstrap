@@ -1,0 +1,24 @@
+.font-fam-hurricane{
+    font-family: Hurricane;
+}
+
+body{
+    font-family: Inter;
+}
+
+:root{
+    --bleu-vert: #36C4B3;
+    --bleu-vert-pale: rgba(54, 196, 179, 0.25);
+}
+
+.bg-bleu-vert{
+    background-color: var(--bleu-vert) !important;
+}
+
+.bg-bleu-vert-pale{
+    background-color: var(--bleu-vert-pale);
+}
+
+.accordion-button::after{
+    background-image: none !important;
+}
